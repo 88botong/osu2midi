@@ -68,12 +68,16 @@ for index in range(len(timing_list_beats)):
 with open("output.mid", 'wb') as output:
     midi_file.writeFile(output)
 
-# BPM = 60000 / BeatLength (millisecond)
+# Conversion
+# Tempo (BPM) = 60000 / BeatLength (millisecond)
 # Beat = BeatTiming / BeatLength
 
-# change in tempo
+# Todo
+# AudioLeadIn
+# changes in tempo
 # calculate duration of sliders
 # length of note match slider and spinner
+# track name as song name
 
 # Timing points
 # time,beatLength,meter,sampleSet,sampleIndex,volume,uninherited,effects
